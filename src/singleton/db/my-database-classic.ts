@@ -19,7 +19,7 @@ export class MyDatabaseClassic {
   }
 
   // Criar um método para remover usuário.
-
+ 
   show(): void {
     for (const user of this.users) {
       console.log(user);

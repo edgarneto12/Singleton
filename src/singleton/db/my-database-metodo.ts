@@ -8,7 +8,10 @@ export const MyDatabaseMetod = {
     },
 
     //Criar um método para remover o usuário.
-    
+    remove(index: number): void {
+          users.splice(index, 1)
+      },
+
     show(): void{
         for(const user of users){
             console.log(user)
